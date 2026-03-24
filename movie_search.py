@@ -37,7 +37,7 @@ if st.session_state.searched and st.session_state.movie_data:
     data = st.session_state.movie_data
     st.divider()
 
-    col1, spacer, col2 = st.columns([1.5, 0.25, 2])
+    col1, spacer, col2 = st.columns([1.5, 0.15, 2])
 
     with col1:
         poster_url = data.get("Poster")
